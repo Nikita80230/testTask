@@ -1,0 +1,61 @@
+.title {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+form {
+  max-width: 850px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+select {
+  flex-basis: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+#name,
+#surname {
+  flex-basis: 40%;
+}
+
+#country,
+#postcode,
+#city,
+#tel {
+  flex-basis: 40%;
+}
+
+#address {
+  flex-basis: 90%;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
